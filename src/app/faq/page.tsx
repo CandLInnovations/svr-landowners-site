@@ -69,7 +69,7 @@ export default function FAQPage() {
           Have a question not listed here?
         </p>
         <p className="font-body text-sm text-muted">
-          Talk to a neighbor. This site is built by landowners who live there —
+          Talk to a neighbor. This site is built by landowners who live here —
           not a PR firm. If something here is wrong, we want to know.
         </p>
       </div>
