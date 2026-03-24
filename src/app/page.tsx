@@ -11,14 +11,24 @@ export default function HomePage() {
           Sierra Verde Ranch POA — Annual Meeting, May 16, 2026
         </p>
         <h1 className="font-headline font-black text-5xl leading-tight text-ink max-w-2xl">
-          $141,050 a year for management.{" "}
-          <span className="text-rust italic">We can do better.</span>
+          Sierra Verde Ranch deserves better than this.
         </h1>
         <p className="font-body text-xl text-muted max-w-2xl leading-relaxed">
+          61,369 acres. 300+ miles of roads. Two community wells. A POA that
+          lost $29,610 last year while spending 48 cents of every assessment
+          dollar on management overhead. We&rsquo;re not here to tear it down.
+          We&rsquo;re here to fix it — with a new board, a lean self-management
+          model, and a purpose-built platform that puts every dollar, every road
+          mile, and every board decision on the public record.
+        </p>
+        <h2 className="font-headline font-black text-3xl leading-tight text-ink max-w-2xl">
+          $141,050 a year for management.{" "}
+          <span className="text-rust italic">We can do better.</span>
+        </h2>
+        <p className="font-body text-lg text-muted max-w-2xl leading-relaxed">
           The management contract says $28,210. The real number — once you add
           every dollar their system costs us — is <strong>$141,050</strong>.
-          That&rsquo;s 48 cents of every dollar we collect. The POA lost $29,610
-          last year. This stops in May.
+          The fix is already underway.
         </p>
         <div className="flex flex-wrap gap-4 items-center">
           <Link
@@ -57,17 +67,20 @@ export default function HomePage() {
       <section className="grid md:grid-cols-2 gap-6">
         <div className="border border-border rounded bg-parchment p-6 space-y-3">
           <p className="font-mono text-xs text-muted uppercase tracking-widest">
-            Vote 1 — CC&amp;Rs
+            Vote 1 — POA Dissolution
           </p>
           <h2 className="font-headline font-bold text-xl text-ink">
-            Keep the CC&amp;Rs
+            Vote NO on dissolution
           </h2>
           <p className="font-body text-sm text-muted leading-relaxed">
-            CC&amp;Rs recorded March 28, 1996 renew automatically every 10
-            years. To dissolve the POA, 66.67% of all acreage must vote yes.
-            Votes are weighted by acre — not by person. We recommend voting{" "}
-            <strong>NO</strong> on dissolution. Keep the structure, replace the
-            people running it.
+            The May 16 ballot asks whether to dissolve the POA — the
+            corporation that maintains our roads and wells. The CC&amp;Rs are
+            recorded covenants attached to every parcel deed and survive
+            regardless of this vote. But dissolving the corporation leaves
+            61,000 acres with no entity to maintain roads, no one to manage
+            the wells, and no mechanism to enforce community standards. We
+            recommend voting NO — not to protect the status quo, but because a
+            governance vacuum makes everything worse.
           </p>
         </div>
         <div className="border border-border rounded bg-parchment p-6 space-y-3">
@@ -78,12 +91,40 @@ export default function HomePage() {
             Elect a new board
           </h2>
           <p className="font-body text-sm text-muted leading-relaxed">
-            The board employs the management company — it says MAY, not SHALL.
-            A simple board majority can fire AZ Community First the day after
-            election. No vote of landowners needed. We just need the right
-            people on the board.
+            The board employs the management company — by choice, not by law.
+            The bylaws say MAY, not SHALL. A new board majority can terminate
+            the AZ Community First contract the day after the election — no
+            landowner vote, no petition, no waiting. We have candidates ready.
+            This is the lever that changes everything.
           </p>
         </div>
+      </section>
+
+      {/* Platform in development */}
+      <section className="border border-border rounded bg-parchment p-6 space-y-4">
+        <p className="font-mono text-xs text-forest uppercase tracking-widest">
+          Already in development
+        </p>
+        <h2 className="font-headline font-bold text-2xl text-ink">
+          The platform is already in development.
+        </h2>
+        <p className="font-body text-base text-muted leading-relaxed">
+          We&rsquo;re not waiting for the vote to build this. The
+          self-management platform — financial dashboard, road request tracking,
+          equipment GPS, work order system, well access management — is being
+          built now. By the time a new board takes over, the tools will be
+          ready.
+        </p>
+        <p className="font-body text-base text-muted leading-relaxed">
+          The goal isn&rsquo;t a board you have to trust more. It&rsquo;s a
+          system where trust isn&rsquo;t required.
+        </p>
+        <Link
+          href="/the-plan"
+          className="inline-block font-body font-semibold text-forest hover:text-ink transition-colors"
+        >
+          See the platform &rarr;
+        </Link>
       </section>
 
       {/* Nav cards */}

@@ -9,11 +9,11 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "If we fire the management company, who does the work?",
-    a: "The board — which is what boards are for. The bylaws say the board MAY employ a manager, not that it must. Other communities this size run successfully without management companies. The difference is a board that shows up.",
+    a: "The board — which is what boards are for. The bylaws say the board MAY employ a manager, not that it must. Other communities this size run successfully without management companies. The difference is a board with the tools to do the job — and a system that holds them accountable whether they use those tools or not.",
   },
   {
-    q: "Won't dissolving the CC&Rs hurt us?",
-    a: "We recommend voting NO on dissolution. The CC&Rs provide the legal structure that lets us own shared infrastructure and enforce standards. Dissolving the POA would create a much bigger mess. Keep the structure, replace the people running it.",
+    q: "What happens to the CC&Rs if the POA dissolves?",
+    a: "The CC&Rs are recorded covenants attached to every parcel deed. They don't disappear if the POA dissolves — they remain on the land. But without a corporate entity to enforce them, they become practically unenforceable. Neighbor-to-neighbor disputes would require individual lawsuits instead of association action. We recommend voting NO on POA dissolution — not to protect the CC&Rs, but to protect the infrastructure and enforcement mechanism that makes the ranch livable.",
   },
   {
     q: "Does the developer still own a bunch of the land?",

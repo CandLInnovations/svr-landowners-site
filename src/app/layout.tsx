@@ -24,7 +24,7 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SVR Community — Take Back Our Ranch",
+  title: "Sierra Verde Ranch — A Better Way",
   description:
     "Sierra Verde Ranch landowners: the management company costs us $141,050/year — 48% of all income. We can do better. Here's the plan.",
 };

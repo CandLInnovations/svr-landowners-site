@@ -1007,9 +1007,7 @@ export default function AccountabilityPage() {
           </p>
           <p>
             The platform doesn&rsquo;t make the board more trustworthy. It makes
-            trustworthiness visible. An honest board will welcome this. A corrupt one
-            will fight it. Watch which way the current board reacts when they see this
-            proposal — that alone will tell you what you need to know.
+            trustworthiness visible. An accountable board will welcome visibility. This platform makes accountability structural — which means it works regardless of who sits on the board.
           </p>
           <p>
             We&rsquo;re landowners here too. Our money goes into the same pot. Our vehicles
