@@ -1,13 +1,13 @@
-import { financialData } from "@/lib/financialData";
+import { currentState, financialHistory } from "@/lib/financialData";
 
-const CONTRACT = financialData.lineItems.managementContract.actual;
-const ECOSYSTEM = financialData.managementEcosystemCost;
-const INCOME = financialData.assessmentIncome;
+const yr2025 = financialHistory[3];
+const CONTRACT = currentState.managementContract;
+const ECOSYSTEM = currentState.managementEcosystemCost2025;
+const INCOME = yr2025.assessmentIncome;
+const ecosystemPct = currentState.managementEcosystemPct;
+const contractPct = Math.round((CONTRACT / INCOME) * 100);
 
 export default function CostBreakdown() {
-  const contractPct = Math.round((CONTRACT / INCOME) * 100);
-  const ecosystemPct = financialData.managementEcosystemPct;
-
   return (
     <div className="border border-border rounded bg-parchment p-6 space-y-6">
       <h2 className="font-headline font-bold text-2xl text-ink">
@@ -68,7 +68,7 @@ export default function CostBreakdown() {
         <p className="font-body text-sm text-muted mt-1">
           2025 net operating loss:{" "}
           <span className="font-mono font-medium text-danger">
-            ${Math.abs(financialData.netOperatingLoss).toLocaleString()} deficit
+            ${Math.abs(currentState.netOperatingLoss2025).toLocaleString()} deficit
           </span>
         </p>
       </div>

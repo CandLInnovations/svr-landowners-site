@@ -1,27 +1,28 @@
-import { financialData } from "@/lib/financialData";
+import { financialHistory } from "@/lib/financialData";
 
-const { lineItems } = financialData;
+const yr2025 = financialHistory[3];
 
+// 2025 budget figures (from approved budget + CLAUDE.md key facts)
 const rows = [
   {
-    label: lineItems.managementContract.label,
-    budgeted: lineItems.managementContract.budgeted,
-    actual: lineItems.managementContract.actual,
+    label: "Management contract (AZ Community First)",
+    budgeted: 28210,
+    actual: yr2025.managementContract,
   },
   {
-    label: lineItems.lienFees.label,
-    budgeted: lineItems.lienFees.budgeted,
-    actual: lineItems.lienFees.actual,
+    label: "Lien fees",
+    budgeted: 3200,
+    actual: yr2025.lienFees,
   },
   {
-    label: lineItems.legalCollections.label,
-    budgeted: lineItems.legalCollections.budgeted,
-    actual: lineItems.legalCollections.actual,
+    label: "Legal — collections",
+    budgeted: 0,
+    actual: yr2025.legalCollections,
   },
   {
-    label: lineItems.demandLetters.label,
-    budgeted: lineItems.demandLetters.budgeted,
-    actual: lineItems.demandLetters.actual,
+    label: "Late notices / demand letters",
+    budgeted: 0,
+    actual: yr2025.lateNotices,
   },
 ];
 

@@ -2,7 +2,7 @@
 
 ## Project Purpose
 Civic pitch website for Sierra Verde Ranch Property Owners 
-Association (SVR POA), a 400+ lot rural ranch community in 
+Association (SVR POA), a 1600+ lot rural ranch community in 
 Northern Arizona. The site supports a campaign to replace 
 the paid management company (AZ Community First) with 
 community self-management using a purpose-built platform.
@@ -118,6 +118,11 @@ public/
 - No homeowner portal
 - Those come after the election in the full platform build
 
+## Claude Behavior Notes
+- Do NOT recreate AGENTS.md — it has been intentionally deleted
+- Do NOT commit or push — user handles all git commits and
+  pushes after testing
+
 ## Source Documents Available
 - 3 months of financial statements (Dec 2025, Jan 2026, 
   Feb 2026)
@@ -125,3 +130,29 @@ public/
 - Amended and Restated Bylaws (adopted Sept 17, 2022)
 - Articles of Incorporation (1996)
 - Standard Operating Procedures (revised March 2025)
+
+## FRONTSTEPS PORTAL — WHAT ALREADY EXISTS:
+FrontSteps (current management platform) provides landowners:
+- Monthly financial PDFs (downloadable, going back to 2021)
+- Meeting minutes (13 documents)
+- Governing documents (CC&Rs, bylaws, SOPs)
+- Unit maps for all SVR units (I through XI+, annexed)
+- Well documents, insurance, forms
+
+What it does NOT provide:
+- Live budget vs. actual dashboards
+- Automated alerts for budget overruns
+- Interactive financial data (everything is static PDFs)
+- GPS equipment tracking
+- Board vote records
+- Asset registry
+- Fuel/materials receipts linked to work orders
+- Maintenance request status visible to submitter in real time
+- Any notification system for landowners
+
+Core message: FrontSteps is a file cabinet.
+We are building a management system.
+The data exists — the accountability layer doesn't.
+Never claim the data is hidden. Claim it is
+inaccessible without significant effort, and
+designed to be ignored rather than acted on.
