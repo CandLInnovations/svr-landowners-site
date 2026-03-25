@@ -77,10 +77,13 @@ export default function HomePage() {
             corporation that maintains our roads and wells. The CC&amp;Rs are
             recorded covenants attached to every parcel deed and survive
             regardless of this vote. But dissolving the corporation leaves
-            61,000 acres with no entity to maintain roads, no one to manage
-            the wells, and no mechanism to enforce community standards. We
-            recommend voting NO — not to protect the status quo, but because a
-            governance vacuum makes everything worse.
+            61,000 acres with no entity to maintain roads and no one legally
+            responsible for the wells. We recommend voting NO — not to defend
+            the way things have been run, but because the roads still need
+            grading and the wells still need maintenance regardless of how this
+            vote goes. Dissolving the POA doesn&rsquo;t fix what&rsquo;s
+            broken. It just removes the only legal structure we have to fix it
+            with.
           </p>
         </div>
         <div className="border border-border rounded bg-parchment p-6 space-y-3">
