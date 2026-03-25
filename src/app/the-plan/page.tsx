@@ -191,6 +191,28 @@ export default function ThePlanPage() {
         </div>
       </section>
 
+      {/* Roads deep-dive callout */}
+      <div className="border border-gold/40 bg-gold/5 rounded p-6 space-y-3">
+        <p className="font-mono text-xs text-gold uppercase tracking-widest">
+          Deep dive
+        </p>
+        <h2 className="font-headline font-bold text-2xl text-ink">
+          Roads are SVR&rsquo;s most complex challenge.
+        </h2>
+        <p className="font-body text-base text-muted leading-relaxed">
+          300+ miles of road network. Aging equipment. Years of deferred
+          maintenance requests with no public tracking. The platform has a
+          dedicated solution for every part of it — from the moment a request
+          is submitted to the GPS log that proves the work was done.
+        </p>
+        <Link
+          href="/roads"
+          className="inline-block font-body font-semibold text-gold hover:text-ink transition-colors"
+        >
+          See the full roads plan &rarr;
+        </Link>
+      </div>
+
       {/* Cost comparison */}
       <section className="space-y-5">
         <div className="space-y-1 max-w-3xl">
