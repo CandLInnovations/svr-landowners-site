@@ -26,7 +26,7 @@ const gaps = [
   },
   {
     heading: "Is the equipment about to break down?",
-    body: "SVR's road equipment has a documented history of failures requiring major repairs — including a $63,000 engine repair that shut down road grading for months. Preventive maintenance requires tracking engine hours per vehicle. Currently there is no systematic hour-based maintenance tracking across the fleet.",
+    body: "SVR's road equipment has a documented history of failures requiring major repairs — including a $63,217 engine repair approved from a single vendor proposal in a 22-minute emergency Zoom meeting — which shut down road grading for months. Preventive maintenance requires tracking engine hours per vehicle. Currently there is no systematic hour-based maintenance tracking across the fleet.",
   },
 ];
 

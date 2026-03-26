@@ -168,12 +168,19 @@ export const boardHistory: BoardMember[] = [
 
 export const managementHistory = [
   {
+    company: "Hart's HOA Management",
+    manager: 'Ken Hart / Caroline Hart',
+    startDate: '2019-01-01', // approximate — confirmed present as of January 2020
+    endDate: '2020-11-20',
+    note: "Contract sold to Vision Community Management in November 2020 due to Ken Hart's injury. No competitive selection by the board — Vision acquired the existing relationship.",
+  },
+  {
     company: 'Vision Community Management',
     manager: 'Veda Jones, CMCA, AMS',
-    startDate: '2022-01-01',
+    startDate: '2020-11-21',
     endDate: '2025-02-28',
     contractDeclinedDate: '2025-01-18',
-    note: 'Contract not renewed by board vote January 18, 2025.',
+    note: "Acquired Hart's HOA Management client contracts in November 2020. Same managing agent (Veda Jones) continued from Hart's HOA. Did not win a competitive bid — acquired the existing client relationship when Hart's owner sold due to health issues. Contract not renewed by board vote January 18, 2025.",
   },
   {
     company: 'Arizona Community First Management',

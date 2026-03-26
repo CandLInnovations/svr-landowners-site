@@ -145,6 +145,15 @@ export default function TheNumbersPage() {
             </tfoot>
           </table>
         </div>
+        <div className="px-6 py-3 border-t border-border bg-parchment/40">
+          <p className="font-mono text-xs text-muted leading-relaxed">
+            Vision Community Management and AZ Community First are separate
+            companies with the same managing agent. Vision acquired the SVR
+            contract in November 2020 when the prior management company
+            (Hart&rsquo;s HOA Management) sold its client contracts. The same
+            individual has managed SVR continuously since November 2020.
+          </p>
+        </div>
       </section>
 
       {/* 2025 expense detail */}

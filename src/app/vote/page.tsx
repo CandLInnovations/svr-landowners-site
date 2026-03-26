@@ -44,7 +44,8 @@ export default function VotePage() {
           </p>
           <p>
             <span className="font-semibold text-ink">Quorum:</span> 50 members
-            holding 1,000+ acre-votes must attend (in person or by proxy)
+            holding 1,000+ acre-votes must participate — either by attending
+            in person or by returning an absentee ballot
           </p>
         </div>
       </section>
@@ -56,18 +57,18 @@ export default function VotePage() {
 
         <div className="border border-border rounded bg-parchment p-6 space-y-3">
           <p className="font-mono text-xs text-muted uppercase tracking-widest">
-            Vote 1 — CC&amp;Rs
+            Vote 1 — POA Dissolution
           </p>
           <h3 className="font-headline font-bold text-xl text-ink">
             Vote NO on dissolution
           </h3>
           <p className="font-body text-sm text-muted leading-relaxed">
-            The CC&amp;Rs recorded March 28, 1996 renew automatically every 10
-            years. A vote to dissolve requires 66.67% of total community acreage
-            — weighted by acre, not by head count. If you own more acres, your
-            vote counts more. We recommend voting{" "}
-            <strong className="text-ink">NO</strong> on dissolving the POA. The
-            legal structure is not the problem. The management is.
+            The CC&amp;Rs were recorded March 28, 1996 with an initial 20-year
+            term, then automatic 10-year renewals unless terminated. 2026 is a
+            renewal year — which is why this vote is on the May 16 ballot.
+            Terminating requires 66.67% of total acreage to vote yes. Votes
+            are weighted by acre, not by person. We recommend voting{" "}
+            <strong className="text-ink">NO</strong>.
           </p>
         </div>
 
@@ -92,12 +93,21 @@ export default function VotePage() {
           Can&rsquo;t make it in person?
         </p>
         <h3 className="font-headline font-bold text-xl text-ink">
-          Send a proxy
+          Return your absentee ballot
         </h3>
         <p className="font-body text-sm text-muted leading-relaxed">
-          You can authorize another landowner to vote on your behalf. Proxy forms
-          will be available before the meeting. Watch your mail for the official
-          meeting notice — it will include proxy instructions.
+          You do not need to attend in person. The bylaws explicitly prohibit
+          proxy voting — you cannot authorize someone else to vote on your
+          behalf. But you can and should return your absentee ballot by mail
+          (or by email or fax if the board authorizes electronic delivery for
+          this election).
+        </p>
+        <p className="font-body text-sm text-muted leading-relaxed">
+          Your returned ballot counts toward quorum exactly the same as
+          attending in person. Watch your mail for the official ballot — it
+          will include instructions and a return deadline. The ballot must be
+          returned at least seven days after it was delivered to you per the
+          bylaws.
         </p>
       </section>
 
@@ -106,10 +116,10 @@ export default function VotePage() {
           Quorum matters
         </p>
         <p className="font-body text-sm text-muted">
-          If 50 members holding 1,000+ acre-votes don&rsquo;t show up (or send
-          proxies), the meeting can&rsquo;t proceed. Your presence — or your
-          proxy — is the minimum requirement. Don&rsquo;t assume someone else will
-          cover it.
+          If 50 members holding 1,000+ acre-votes don&rsquo;t participate, the
+          meeting can&rsquo;t proceed. Your participation — in person or by
+          returning your ballot — is what makes the meeting valid.
+          Don&rsquo;t assume someone else will cover it.
         </p>
       </section>
     </div>

@@ -193,8 +193,10 @@ export default function GovernanceTimeline() {
 
       <div className="border-t border-border pt-4 max-w-3xl">
         <p className="font-mono text-xs text-muted">
-          Sources: SVR POA Open Board Meeting Minutes, January 2024 –
-          December 2025. Available to all landowners via the FrontSteps portal.
+          Sources: SVR POA Open Board Meeting Minutes, January 2020 –
+          December 2025. 55 meetings reviewed across six years. All records
+          are public documents available to landowners via the FrontSteps
+          portal.
         </p>
       </div>
     </div>

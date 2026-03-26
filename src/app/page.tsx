@@ -53,7 +53,7 @@ export default function HomePage() {
         </p>
         <CountdownTimer />
         <p className="font-body text-sm text-muted">
-          May 16, 2026 — that&rsquo;s when the CC&amp;R renewal vote and board
+          May 16, 2026 — that&rsquo;s when the POA dissolution vote and board
           election happen. Both matter. Read the plan.
         </p>
       </section>

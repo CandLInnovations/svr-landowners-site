@@ -41,7 +41,7 @@ export interface YearlyFinancials {
 export const financialHistory: YearlyFinancials[] = [
   {
     year: 2022,
-    manager: 'Prior management company',
+    manager: 'Vision Community Management',
     totalRevenue: 249636,
     totalExpenses: 339528,
     netIncome: -89892,
@@ -128,7 +128,7 @@ export const financialHistory: YearlyFinancials[] = [
 
   {
     year: 2023,
-    manager: 'Prior management company',
+    manager: 'Vision Community Management',
     totalRevenue: 301457,
     totalExpenses: 356159,
     netIncome: -54702,
@@ -224,7 +224,7 @@ export const financialHistory: YearlyFinancials[] = [
 
   {
     year: 2024,
-    manager: 'Prior management company (through ~Feb 2025)',
+    manager: 'Vision Community Management (through Feb 2025)',
     totalRevenue: 369811,
     totalExpenses: 288925,
     netIncome: 80886,
