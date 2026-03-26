@@ -252,11 +252,25 @@ export default function ThePlanPage() {
               </p>
             </div>
             <ul className="divide-y divide-border">
+              <li className="px-5 py-3 flex justify-between gap-4 items-start">
+                <div className="space-y-0.5">
+                  <span className="font-body text-sm text-muted block">
+                    Platform hosting and infrastructure
+                  </span>
+                  <span className="font-body text-xs text-muted/70 leading-snug block">
+                    Platform development and ongoing maintenance donated by SVR
+                    landowners. Hard costs only: hosting, database, email
+                    delivery, and SMS notifications.
+                  </span>
+                </div>
+                <span className="font-mono text-sm text-forest font-medium shrink-0">
+                  ~$1,400/year
+                </span>
+              </li>
               {[
-                ["Platform licensing and hosting", "~$6,000–8,000/year"],
                 ["Part-time bookkeeper (10 hrs/month)", "~$7,200/year"],
                 ["Legal retainer — escalated collections only", "~$8,000–12,000/year"],
-                ["Total estimated", "~$21,200–27,200/year"],
+                ["Total estimated", "~$16,600–20,600/year"],
               ].map(([label, value]) => (
                 <li key={label} className="px-5 py-3 flex justify-between gap-4">
                   <span className="font-body text-sm text-muted">{label}</span>
@@ -272,13 +286,10 @@ export default function ThePlanPage() {
           <p className="font-body text-sm text-ink leading-relaxed">
             The difference — conservatively{" "}
             <span className="font-mono font-medium text-forest">
-              $114,000 per year
+              $120,000 per year
             </span>{" "}
-            — goes to roads. SVR has 300+ miles of road network and a reserve
-            fund that hasn&rsquo;t had a current study since 2017. The 2017
-            study identified over $618,000 in deferred road and well work. That
-            gap doesn&rsquo;t close by paying a management company to send demand
-            letters. It closes by redirecting overhead into gravel and culverts.
+            — goes to roads. That&rsquo;s gravel, culverts, and the reserve fund
+            that hasn&rsquo;t had a current study since 2017.
           </p>
         </div>
       </section>
