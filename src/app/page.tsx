@@ -1,5 +1,4 @@
 import CountdownTimer from "@/components/CountdownTimer";
-import CostBreakdown from "@/components/CostBreakdown";
 import Link from "next/link";
 
 export default function HomePage() {
@@ -26,7 +25,7 @@ export default function HomePage() {
           <span className="text-rust italic">We can do better.</span>
         </h2>
         <p className="font-body text-lg text-muted max-w-2xl leading-relaxed">
-          The management contract says $28,210. The real number — once you add
+          The base contract was $27,675. The real number — once you add
           every dollar their system costs us — is <strong>$141,050</strong>.
           The fix is already underway.
         </p>
@@ -59,8 +58,86 @@ export default function HomePage() {
       </section>
 
       {/* Cost breakdown */}
-      <section>
-        <CostBreakdown />
+      <section className="space-y-4">
+        <div className="space-y-1">
+          <p className="font-mono text-xs text-muted uppercase tracking-widest">
+            Where $141,050 comes from
+          </p>
+          <h2 className="font-headline font-bold text-2xl text-ink">
+            The contract is the smallest part of the problem.
+          </h2>
+        </div>
+
+        <div className="space-y-3">
+          {/* Tier 1 */}
+          <div className="border border-border rounded bg-parchment overflow-hidden">
+            <div className="px-5 py-3 border-b border-border flex items-baseline justify-between gap-4">
+              <div>
+                <span className="font-mono text-xs text-muted uppercase tracking-widest">Tier 1 — The contract</span>
+                <h3 className="font-headline font-bold text-lg text-ink mt-0.5">$27,675 <span className="font-mono text-sm text-muted font-normal">/ 19%</span></h3>
+              </div>
+              <div className="h-2 w-24 rounded-full bg-border overflow-hidden shrink-0">
+                <div className="h-full bg-muted rounded-full" style={{ width: "19%" }} />
+              </div>
+            </div>
+            <div className="px-5 py-3">
+              <p className="font-body text-sm text-muted leading-relaxed">
+                The management contract line item (account 8510). This is the number AZ Community First quotes. It is not the real cost.
+              </p>
+            </div>
+          </div>
+
+          {/* Tier 2 */}
+          <div className="border border-border rounded bg-parchment overflow-hidden">
+            <div className="px-5 py-3 border-b border-border flex items-baseline justify-between gap-4">
+              <div>
+                <span className="font-mono text-xs text-muted uppercase tracking-widest">Tier 2 — Add-ons billed separately</span>
+                <h3 className="font-headline font-bold text-lg text-ink mt-0.5">$23,371 <span className="font-mono text-sm text-muted font-normal">/ 17%</span></h3>
+              </div>
+              <div className="h-2 w-24 rounded-full bg-border overflow-hidden shrink-0">
+                <div className="h-full bg-gold rounded-full" style={{ width: "17%" }} />
+              </div>
+            </div>
+            <div className="px-5 py-3">
+              <p className="font-body text-sm text-muted leading-relaxed">
+                Software, portals, insurance administration, and service fees billed outside the base contract. These costs exist only because the management company exists.
+              </p>
+            </div>
+          </div>
+
+          {/* Tier 3 */}
+          <div className="border border-border rounded bg-parchment overflow-hidden">
+            <div className="px-5 py-3 border-b border-border flex items-baseline justify-between gap-4">
+              <div>
+                <span className="font-mono text-xs text-muted uppercase tracking-widest">Tier 3 — Incentive-driven costs</span>
+                <h3 className="font-headline font-bold text-lg text-ink mt-0.5">$90,004 <span className="font-mono text-sm text-muted font-normal">/ 64%</span></h3>
+              </div>
+              <div className="h-2 w-24 rounded-full bg-border overflow-hidden shrink-0">
+                <div className="h-full bg-rust rounded-full" style={{ width: "64%" }} />
+              </div>
+            </div>
+            <div className="px-5 py-3">
+              <p className="font-body text-sm text-muted leading-relaxed">
+                Collections, demand letters, lien fees, and legal costs — activity the management company bills for on top of its contract. In 2025, collections spending exceeded collections recovered by $36,783. The incentive is to pursue, not to resolve.
+              </p>
+            </div>
+          </div>
+
+          {/* Total */}
+          <div className="border-2 border-ink rounded bg-ink text-cream px-5 py-4 flex items-baseline justify-between gap-4">
+            <div>
+              <p className="font-mono text-xs text-cream/60 uppercase tracking-widest">Total management ecosystem cost — 2025</p>
+              <p className="font-headline font-black text-3xl mt-0.5">$141,050 <span className="font-mono text-lg font-normal text-cream/70">/ 48% of all assessment income</span></p>
+            </div>
+          </div>
+
+          {/* Field note */}
+          <div className="border border-border rounded px-5 py-3 bg-parchment/60">
+            <p className="font-mono text-xs text-muted leading-relaxed">
+              Assessment income collected in 2025: $291,308. Net operating result: &ndash;$29,610.
+            </p>
+          </div>
+        </div>
       </section>
 
       {/* Two votes */}
